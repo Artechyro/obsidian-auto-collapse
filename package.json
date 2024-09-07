@@ -1,0 +1,22 @@
+{
+	"name": "obsidian-sample-plugin",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/main.js",
+	"scripts": {
+		"dev": "node ophidian.config.mjs dev",
+		"build": "node ophidian.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@ophidian/build": "^1",
+		"@ophidian/core": "github:artechyro/ophidian-core",
+		"@typescript-eslint/eslint-plugin": "5.29.0",
+		"@typescript-eslint/parser": "5.29.0",
+		"obsidian": "1.6.6",
+		"obsidian-typings": "^2.2.0"
+	}
+}
